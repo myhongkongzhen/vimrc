@@ -1,4 +1,8 @@
 
+" ln -s .vim/.vimrc .
+"
+" PlugInstall
+
 " ============= Common setting =============
 
 syntax enable
