@@ -14,6 +14,7 @@ set t_Co=256
 set background=dark
 
 set number
+set relativenumber
 set clipboard=unnamed
 set cursorline
 set ruler
@@ -51,19 +52,37 @@ colorscheme default
 
 call plug#begin()
 
-" Plug 'junegunn/vim-easy-align'
 Plug 'ap/vim-css-color'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline-themes'
+Plug 'preservim/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ekalinin/Dockerfile.vim'
+
+
+
+
+
 
 call plug#end()
 
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#formatter = 'default'
-
 " ============= vim-plug setting =============
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
