@@ -57,13 +57,14 @@ colorscheme default
 call plug#begin()
 
 Plug 'ap/vim-css-color'
+
 Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
+"
 Plug 'preservim/nerdtree'
+
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'ekalinin/Dockerfile.vim'
-
-
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 
 
